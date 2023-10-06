@@ -1,0 +1,218 @@
+body {
+  background-color: white;
+}
+/* Header */
+.header {
+  display: flex;
+
+  margin-top: 4rem;
+  margin-right: 8rem;
+  margin-left: 12rem;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+}
+
+.columnLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px; /* Ancho deseado del contenedor */
+  height: 250px; /* Alto deseado del contenedor */
+  padding-top: 2rem;
+}
+.contenedorHeaderUno {
+  background-color: #f5f5f5 !important;
+  border-radius: 1rem;
+  height: 22rem;
+}
+
+.tituloEcoTree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: grey;
+}
+.imagenJardin {
+  width: 29rem;
+  height: 25rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.contenedorFlecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flechaDerecha {
+  width: 40px;
+  height: 45px;
+  padding-right: 2rem;
+}
+.column {
+  flex: 1;
+  text-align: center;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* NavBAR */
+.navbar {
+  width: 300px;
+  background-color: #f5f5f5 !important;
+  color: #fff;
+
+  border-radius: 1rem;
+  height: 22rem;
+}
+
+.navbar ul {
+  justify-content: center;
+  align-items: center;
+  padding: 2.6rem;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.navbar a {
+  color: #f19d00;
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.separator {
+  width: 13.5rem;
+  height: 0.5px;
+  display: block;
+  background-color: #666666;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilos para la sección flexbox */
+.section-flex {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  padding: 45px; /* Espacio alrededor de la sección */
+  background-color: #b4d8e8;;/* Cambia el color de fondo según tus preferencias */
+  border-radius: 1rem;
+  width: 69.2rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.text-box {
+  text-align: center; /* Centra el contenido horizontalmente */
+  flex: 1; /* Hace que los elementos ocupen un espacio igual en el contenedor */
+  max-width: 30%; /* Establece un ancho máximo para los elementos */
+}
+
+.text-box h3 {
+  font-size: 24px; /* Tamaño del minitítulo */
+  margin: 10px 0; /* Espacio entre el minitítulo y el texto */
+}
+
+.text-box p {
+  font-size: 18px; /* Tamaño del texto */
+}
+
+.separadorSection{
+  display: flex;
+}
+
+
+
+.section-second{
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  padding: 45px; /* Espacio alrededor de la sección */
+  background-color: #f5f5f5;;/* Cambia el color de fondo según tus preferencias */
+  border-radius: 1rem;
+  width: 69.2rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  height: 40rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-top: 2rem;
+  margin-left: 11.8rem;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  width: 72.5rem;
+}
+
+.box {
+  width: calc(33% - 20px); /* Ancho fijo con espacio para el margen */
+  flex: none; /* Desactiva el crecimiento y la contracción flex */
+ 
+ 
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Section-ultimate{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin-top: 2rem;
+  margin-left: 11.8rem;
+  padding: 20px;
+  
+  border-radius: 1rem;
+  width: 72.5rem;
+}
+
+.box-ultimate{
+  width: calc(33% - 20px); /* Ancho fijo con espacio para el margen */
+  flex: none; /* Desactiva el crecimiento y la contracción flex */
+ 
+
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #e8e5e5;
+  height: 40px;
+  width: 100vw; /* Ancho igual al ancho de la ventana del navegador */
+ 
+}
