@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: grey;
+  color: rgb(148, 148, 148);
 }
 .imagenJardin {
   width: 29rem;
@@ -146,6 +146,20 @@ body {
   height: 40rem;
 }
 
+
+.textHeader {
+color: rgb(49, 49, 49);
+}
+
+.tituloSection{
+  color: rgb(72, 72, 72);
+  font-size: 2rem !important;
+}
+
+.tituloUltimaSeccion{
+font-size: 1.5rem;
+  color: rgb(72, 72, 72);
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -244,8 +258,8 @@ body {
   padding: 5px 10px; /* Pequeño padding */
   border: none;
   border-radius: 5px; /* Redondeado */
-  background-color: #66b3cc; /* Color celeste */
-  color: #000000; /* Texto en color blanco */
+  background-color: #b4d8e8;  /* Color celeste */
+  color: #4a4848; /* Texto en color blanco */
   font-size: 14px; /* Tamaño del texto */
   cursor: pointer; /* Cambia el cursor al pasar por encima */
   margin-top: 1rem;
@@ -313,16 +327,19 @@ button:hover {
 }
 
 .tituloFormContact {
+  color: #4a4848; 
   margin-right: 60rem;
 }
 
 .tituloFormImagenes {
   width: 70%;
   margin-left: 19rem;
+  color: #4a4848; 
 }
 .subtituloForm {
   font-size: 1.4rem;
 }
+
 
 .image-grid {
   display: flex;
@@ -363,7 +380,14 @@ button:hover {
   height: 15rem;
   margin-left: 11.5rem;
 }
-
+.tituloFooter{
+  color: #4a4848; 
+}
+.textoFooter{
+  font-size: 1.1rem;
+  color: #4a4848; 
+ 
+}
 .footerColumn {
   flex: 1;
   padding: 0 20px;
