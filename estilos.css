@@ -132,7 +132,6 @@ body {
 .separadorSection {
   display: flex;
 
-  
   height: 8rem;
 }
 
@@ -149,18 +148,17 @@ body {
   height: 40rem;
 }
 
-
 .textHeader {
-color: rgb(49, 49, 49);
+  color: rgb(49, 49, 49);
 }
 
-.tituloSection{
+.tituloSection {
   color: rgb(72, 72, 72);
   font-size: 2rem !important;
 }
 
-.tituloUltimaSeccion{
-font-size: 1.5rem;
+.tituloUltimaSeccion {
+  font-size: 1.5rem;
   color: rgb(72, 72, 72);
 }
 .container {
@@ -256,8 +254,7 @@ font-size: 1.5rem;
   padding-top: 3rem;
 }
 
-.textSegundaSection{
-
+.textSegundaSection {
   color: rgb(72, 72, 72);
 }
 /* Estilos para el botón */
@@ -265,7 +262,7 @@ font-size: 1.5rem;
   padding: 5px 10px; /* Pequeño padding */
   border: none;
   border-radius: 5px; /* Redondeado */
-  background-color: #b4d8e8;  /* Color celeste */
+  background-color: #b4d8e8; /* Color celeste */
   color: #4a4848; /* Texto en color blanco */
   font-size: 14px; /* Tamaño del texto */
   cursor: pointer; /* Cambia el cursor al pasar por encima */
@@ -334,19 +331,18 @@ button:hover {
 }
 
 .tituloFormContact {
-  color: #4a4848; 
+  color: #4a4848;
   margin-right: 60rem;
 }
 
 .tituloFormImagenes {
   width: 70%;
   margin-left: 19rem;
-  color: #4a4848; 
+  color: #4a4848;
 }
 .subtituloForm {
   font-size: 1.4rem;
 }
-
 
 .image-grid {
   display: flex;
@@ -387,13 +383,12 @@ button:hover {
   height: 15rem;
   margin-left: 11.5rem;
 }
-.tituloFooter{
-  color: #4a4848; 
+.tituloFooter {
+  color: #4a4848;
 }
-.textoFooter{
+.textoFooter {
   font-size: 1.1rem;
-  color: #4a4848; 
- 
+  color: #4a4848;
 }
 .footerColumn {
   flex: 1;
@@ -426,7 +421,10 @@ button:hover {
 .youtube {
   margin-bottom: 12rem;
 }
-
+.imagenHoja {
+  width: 1rem;
+  height: 1rem;
+}
 div h2 {
   display: flex;
   justify-content: start;
@@ -435,3 +433,4 @@ div h2 {
 div p {
   text-align: left;
 }
+
